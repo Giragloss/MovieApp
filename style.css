@@ -1,0 +1,232 @@
+body {
+	background-color: #9351CA;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	color: #fff;
+}
+
+button:hover {
+	border-color: #F9B8F9 !important;
+	color: #F9B8F9 !important;
+}
+
+header {
+	width: 100%;
+	height: 101px;
+	position: relative;
+	background-color: #B270E9;
+}
+
+main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+header .movie {
+	position: relative;
+	left: 12px;
+	height: 36px;
+	top: 33%;
+	font-size: 18px;
+	color: #fff;
+	background-color: #0000;
+	border: 1px solid #fff !important;
+	border-radius: 7px;
+	width: 67.1px;
+	cursor: pointer;
+}
+
+header .tv {
+	position: relative;
+	height: 36px;
+	top: 33%;
+	font-size: 18px;
+	width: 67.1px;
+	left: 15px;
+	color: #fff;
+	background-color: #0000;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+header .popular {
+	position: relative;
+	height: 36px;
+	top: 33%;
+	font-size: 18px;
+	width: 95.1px;
+	left: 18px;
+	color: #fff;
+	background-color: #0000;
+	border: 1px solid #fff;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+header .search {
+	position: relative;
+	background-color: #0000;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	width: 234px;
+	float: right;
+	margin: 37px 13px 37px 0;
+}
+
+header .search input {
+	height: 25px;
+	width: 195px;
+	background-color: #fff0;
+	border: 0;
+	color: #fff;
+}
+
+header .search input:focus{
+	outline: 0;
+}
+
+header .search button {
+	position: relative;
+	top: 2px;
+	left: 0px;
+	cursor: pointer;
+	background: #0000;
+	border: 0;
+}
+
+header .search button img {
+	width: 16px;
+}
+
+main ul {
+	margin: 11px 38px 0 32px;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+main ul li {
+	list-style: none;
+	width: 286px;
+	height: 100%;
+	margin-right: 5px;
+	margin-left: 0;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+main ul li .content {
+	display: flex;
+	flex-direction: column;
+}
+
+main ul li .content .thumb {
+	cursor: pointer;
+}
+
+main ul li .content .thumb img{
+	width: 100%;
+}
+
+main ul li .content .vote {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	background-color: #4C0A83;
+	margin-top: 1px;
+	margin-left: 1px;
+	border-radius: 50%;
+}
+
+main ul li .content .vote p {
+	position: relative;
+	bottom: 6px;
+	left: 9px;
+}
+
+.yel {
+	color: yellow;
+}
+.gren {
+	color: lightgreen;
+}
+.red {
+	color: coral;
+}
+
+main ul li .content .info {
+	width: 100%;
+	margin: 0;
+	background-color: #4B0982;
+	bottom: 20px;
+	position: relative;
+	display: flex;
+	height: 51px;
+}
+
+main ul li .content .info p {
+	font-size: 20px;
+	position: relative;
+	margin: auto;	
+}
+
+main ul li .content .sinopse {
+	position: relative;
+	width: 286px;
+	height: 322px;
+	background-color: #63219A;
+	transition: 1s;
+	transform: translateY(322px);
+	margin: -342px 0 0 0;
+}
+
+main ul li .content .sinopse h2 {
+	color: #fff;
+	margin: 10px 0px 30px 9px;
+}
+
+main ul li .content .sinopse div {
+	position: relative;
+	height: 253px;
+	overflow-y: scroll;
+}
+
+main ul li .content .sinopse div p {
+	margin: 0 18px 0 5px;
+	position: relative;
+	width: 261px;
+}
+
+main ul li .content .link {
+	display: none;
+}
+
+footer {
+	display: flex;
+	margin: auto;
+	background-color: #4C0A83;
+	padding: 5px;
+	border-radius: 8px;	
+}
+
+footer .ant, footer .prox {
+	margin: auto 6px;
+	background: #0000;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 25%;
+	cursor: pointer;
+}
+
+footer p {
+	margin: auto;
+	font-size: 13px;
+}
